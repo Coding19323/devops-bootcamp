@@ -32,8 +32,8 @@ public class NotificationPreferenceController {
 
     public NotificationPreferenceController(NotificationPreferenceService preferenceService,
                                             JwtUtil jwtUtil) {
-        this.preferenceService = preferenceService;
-        this.jwtUtil = jwtUtil;
+
+
     }
 
     @GetMapping("/preferences")
